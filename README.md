@@ -15,24 +15,24 @@
 
 1. Скачать файл
 
-   ```shell
    #marzban_only
+   ```shell
    wget -O- https://raw.githubusercontent.com/bkeenke/backup-templates/master/marzban_only.sh > /opt/marzban_only.sh
    ```
-   ```shell
    #marzban_only_mysql
+   ```shell
    wget -O- https://raw.githubusercontent.com/bkeenke/backup-templates/master/marzban_only_mysql.sh > /opt/marzban_only_mysql.sh
    ```
-   ```shell
    #marzban_and_shm
+   ```shell
    wget -O- https://raw.githubusercontent.com/bkeenke/backup-templates/master/marzban_and_shm.sh > /opt/marzban_and_shm.sh
    ```
-   ```shell
    #marzban_and_shm_mysql
+   ```shell
    wget -O- https://raw.githubusercontent.com/bkeenke/backup-templates/master/marzban_and_shm_mysql.sh > /opt/marzban_and_shm_mysql.sh
    ```
-   ```shell
    #shm_only
+   ```shell
    wget -O- https://raw.githubusercontent.com/bkeenke/backup-templates/master/shm_only.sh > /opt/shm_only.sh
    ```
 2. Заполнить переменные
@@ -51,9 +51,9 @@
 
 3. Настроить `cron`
 
-    1. Ввести команду `crontab -e`
-    2. Выбрать редактор
-    3. Задать время для `cron`
+    - Ввести команду `crontab -e`
+    - Выбрать редактор
+    - Задать время для `cron`
 ```shell
 0 23 * * * * /opt/shm_only.sh >> /opt/backup.log 2>&1
 ```
