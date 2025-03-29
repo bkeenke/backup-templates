@@ -15,24 +15,24 @@
 
 1. Скачать файл
 
-   ```shell
    #marzban_only
+   ```shell
    wget -O- https://raw.githubusercontent.com/bkeenke/backup-templates/master/marzban_only.sh > /opt/marzban_only.sh
    ```
-   ```shell
    #marzban_only_mysql
+   ```shell
    wget -O- https://raw.githubusercontent.com/bkeenke/backup-templates/master/marzban_only_mysql.sh > /opt/marzban_only_mysql.sh
    ```
-   ```shell
    #marzban_and_shm
+   ```shell
    wget -O- https://raw.githubusercontent.com/bkeenke/backup-templates/master/marzban_and_shm.sh > /opt/marzban_and_shm.sh
    ```
-   ```shell
    #marzban_and_shm_mysql
+   ```shell
    wget -O- https://raw.githubusercontent.com/bkeenke/backup-templates/master/marzban_and_shm_mysql.sh > /opt/marzban_and_shm_mysql.sh
    ```
-   ```shell
    #shm_only
+   ```shell
    wget -O- https://raw.githubusercontent.com/bkeenke/backup-templates/master/shm_only.sh > /opt/shm_only.sh
    ```
 2. Заполнить переменные
